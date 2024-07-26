@@ -1,0 +1,128 @@
+/* style.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: larger;
+    transition: background-color 0.5s, color 0.5s; /* Add transition */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+body.dark-mode header {
+    background-color: #444;
+}
+
+body.dark-mode footer {
+    background-color: #444;
+}
+
+body.dark-mode article {
+    background-color: #555;
+}
+
+body.dark-mode img.framed {
+    border-color: #888;
+}
+
+/* Header styles */
+header {
+    background-color: #6b1616;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.5s; /* Add transition */
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 1rem;
+}
+
+article {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s; /* Add transition */
+}
+
+article h2 {
+    color: red;
+}
+
+article p {
+    line-height: 1.6;
+}
+
+section h3 {
+    color: red;
+}
+
+section h4 {
+    color: red;
+}
+
+img.framed {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: border-color 0.5s; /* Add transition */
+}
+
+img.fixed-size {
+    width: 700px; /* Set a fixed width */
+    height: 550px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+video {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #690b0b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    transition: background-color 0.5s; /* Add transition */
+}
